@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:Hakim;Aiman;;;
+FN: Aiman Hakim 
+ORG:HATIO;
+TITLE:Product Engineer, Project
+EMAIL;type=INTERNET;type=WORK;type=pref:aiman@empowerplus.my 
+TEL;type=WORK;type=VOICE:+60176213174
+item1.ADR;type=WORK;type=pref:;;SU10;;;138577;Selangor
+item1.X-ABADR:sg
+item2.URL;type=pref:hatio.asia
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

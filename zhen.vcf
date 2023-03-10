@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:Cui;Zhen;;;
+FN: Zhen  Cui 
+ORG:HATIO;
+TITLE:Co-Founder, Finance & Operation HATIO
+EMAIL;type=INTERNET;type=WORK;type=pref:zcf.zen@empowerplus.my 
+TEL;type=WORK;type=VOICE:+60129448163
+item1.ADR;type=WORK;type=pref:;;Seksyen U13 Setia Alam;;;138577;Selangor
+item1.X-ABADR:sg
+item2.URL;type=pref:hatio.asia
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

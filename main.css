@@ -1,0 +1,403 @@
+body
+{
+text-align: center;
+align-items: center;
+background-image: url(assets/Screenshot\ 2023-03-09\ at\ 4.43.26\ PM.png);
+
+margin: auto;
+}
+
+.logo
+{
+    width: auto;
+    height: 40%;
+    display: block;
+    align-items: center;
+}
+
+i{
+    font-size: small;
+}
+
+.logo img
+{
+    width: 20%;
+    height: 20%;
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 30%;
+    min-height: 30%;
+    align-items: center;
+
+}
+
+.logo h5
+{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.strong{
+    color: rgb(0, 0, 0);
+    word-spacing: 1rem;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.nav-bar {
+    width:90%;
+    border-bottom: 1px solid hsla(215, 22%, 47%, 0.646);;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+.navbarimg{
+    opacity: 50%;
+    width: 10%;
+    height: 10%;
+}
+
+.navbari{
+    opacity: 50%; 
+    padding-left: 50%; 
+    font-weight:lighter; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    color: azure;
+}
+
+.position
+{
+    font-size: larger;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* 
+========================
+Variables
+========================
+*/
+
+
+:root {
+    
+    font-size: 15px;
+    
+    /* Primary */
+    --var-soft-blue: hsl(215, 51%, 70%);
+    --var-cyan: hsl(178, 100%, 50%);
+    /* Neutral */
+    --var-main-darkest: hsl(217, 54%, 11%);
+    --var-card-dark: hsl(217, 40%, 16%);
+    --var-line-dark: hsl(215, 32%, 27%);
+    --var-lightest: white;
+    
+    /* Fonts */
+    
+    --var-heading: normal normal 600 1.5em/1.6em 'Outfit', sans-serif;
+    
+    --var-small-heading: normal normal 400 1em/1em 'Outfit', sans-serif;
+    
+    --var-para: normal normal 300 1em/1.55em 'Outfit', sans-serif;
+}
+
+/* 
+=======================
+Setup
+=======================
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+
+
+img {
+    width: 100%;
+    /*border-radius: 15px;*/
+    display: block;
+    /*border-radius: 50% ;*/
+}
+
+
+
+/* 
+
+Eye view
+
+https://i.postimg.cc/9MtT4GZY/view.png' border='0' alt='view */
+
+/*
+=========================
+Font Styling
+=========================
+*/
+
+h1 {
+    font: var(--var-heading);
+    color: var(--var-lightest);
+    padding: 0.5em 0;
+}
+
+h2 {
+    font: var(--var-small-heading);
+    color: var(--var-lightest);
+    /* padding on .coin-base */
+}
+
+p {
+    font: var(--var-para);
+    color: var(--var-soft-blue);
+}
+
+span {
+    color: rgb(226, 194, 194);
+}
+/* 
+=====================
+Classes
+=====================
+*/
+
+/* LAYOUT */
+
+.card-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 2em auto;
+    background-color: var(--var-card-dark);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.card-container1{
+    width: 100%;
+    max-width: 400px;
+    margin: 2em auto;
+    background-color: hsla(216, 22%, 47%, 0.138);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.card-container2{
+    width: 100%;
+    max-width: 400px;
+    margin: 2em auto;
+    background-color: hsla(216, 22%, 47%, 0.138);    
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: hsla(216, 22%, 47%, 0.138);
+}
+
+.card-container3 {
+    width: 100%;
+    max-width: 400px;
+    margin: 2em auto;
+    background-color: hsla(0, 0%, 0%, 0.647);    
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.addme{
+    color:white; 
+    padding-bottom: 5%; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactme{
+    color:white; padding-bottom: 5%; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.company{
+    color: rgb(255, 255, 255); 
+    font-weight: bolder; 
+    font-size: 90%;
+}
+
+.tagline{
+    font-size: larger; 
+    color: rgb(255, 255, 255);
+}
+
+div.flex-row {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.coin-base, .time-left, .card-attribute {
+    display: flex;
+    align-items: center;
+    padding: 0.1em;
+}
+
+.card-attribute {
+    padding-bottom: 1.5em;
+    border-top: 2px solid var(--var-line-dark);
+}
+
+.hero-image-container {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+}
+
+
+
+/* Details */
+
+img.eye {
+    position: absolute;
+    width: 100%;
+    max-width: 2em;
+    top: 44%;
+    left: 43%;
+}
+
+@media (min-width:400px) {
+  img.eye {
+    max-width: 3em;
+}
+}
+
+.hero-image-container::after {
+    content: '';
+    background-image: url("https://i.postimg.cc/9MtT4GZY/view.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    background-color: hsla(178, 100%, 50%, 0.3);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.hero-image-container:hover::after {
+  opacity: 1;
+}
+
+.small-image {
+    width: 1.2em;
+    margin-right: .5em;
+}
+
+.small-avatar {
+    width: 2em;
+    border-radius: 200px;
+    margin-right: 1.4em;
+}
+
+.small-avatar1 {
+    width: 2em;
+    border-radius: 200px;
+    margin-right: 1.4em;
+    width: 40%; 
+    height: 40%; 
+    margin-left: 30%;
+}
+
+.small-avatar2 {
+    width: 2em;
+    border-radius: 200px;
+    margin-right: 1.4em;
+    width: 40%; 
+    height: 40%;
+    margin-left: 28%;
+}
+
+.small-avatar3 {
+    width: 2em;
+    border-radius: 200px;
+    margin-right: 1.4em;
+    width: 40%; 
+    height: 40%;
+    margin-left: 35%;
+}
+
+.small-avatar4 {
+    width: 2em;
+    border-radius: 200px;
+    margin-right: 1.4em;
+    width: 40%; 
+    height: 40%; 
+    margin-left: 24%;
+}
+
+.small-avatar5 {
+    width: 2em;
+    border-radius: 200px;
+    margin-right: 1.4em;
+    width: 40%; 
+    height: 40%;
+    margin-left: 28%;
+}
+
+.small-avatar6 {
+    width: 2em;
+    border-radius: 200px;
+    margin-right: 1.4em;
+    width: 40%; 
+    height: 40%;
+    margin-left: 35%;
+}
+
+div.attribution {
+    margin: 0 auto;
+    width: 100%;
+    font: var(--var-para);
+    text-align: center;
+    padding: 1.5em 0 4em 0;
+    color: var(--var-line-dark);
+}
+.attribution a {
+    color: var(--var-soft-blue);
+}
+
+@media (min-width:600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+.float{
+	position:fixed;
+	width:180px;
+	height:50px;
+	bottom:40px;
+	background-color:hsl(0, 0%, 0%);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	right: 20px;
+  z-index:100;
+  font-size: 100%; 
+  opacity: 80%;
+}
+
+.my-float{
+	margin-top:16px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+
+}
